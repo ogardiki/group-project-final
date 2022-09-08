@@ -22,6 +22,6 @@ li:hover {
   cursor: pointer;
 }
 
-nav {
-  color:white;
+.steps {
+  text-align: center;
 }

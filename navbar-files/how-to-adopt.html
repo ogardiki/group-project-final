@@ -73,9 +73,9 @@
         </div>
       </div>
     </nav>
-    <div>
+    <div class="steps">
       <br>
-      <h1>Steps you need to follow:</h1>
+      <h1>STEPS YOU NEED TO FOLLOW:</h1>
       <br>
       <ol>
         <li>Complete the form below.</li>
@@ -84,7 +84,54 @@
         <li>Once the pet is prepared, we will get back to you and give you further instructions.</li>
       </ol>
     </div>
-
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">First name</label>
+        <input type="email" class="form-control" id="inputEmail4">
+      </div>
+      <div class="col-md-6">
+        <label for="inputPassword4" class="form-label">Last name</label>
+        <input type="password" class="form-control" id="inputPassword4">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress" class="form-label">Email</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+      </div>
+      <div class="col-12">
+        <label for="inputAddress2" class="form-label">Address</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+      </div>
+      <div class="col-md-6">
+        <label for="inputCity" class="form-label">Phone number</label>
+        <input type="text" class="form-control" id="inputCity">
+      </div>
+      <div class="col-md-4">
+        <label for="inputState" class="form-label">City</label>
+        <select id="inputState" class="form-select">
+          <option selected>Choose...</option>
+          <option>Athens</option>
+          <option>Thesaloniki</option>
+          <option>Patra</option>
+          <option>Heraklion</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label for="inputZip" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="inputZip">
+      </div>
+      <div class="col-12">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            I would like to recieve newsletter
+          </label>
+        </div>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
     
     <script src="scripts/index.js"></script>
     <script
